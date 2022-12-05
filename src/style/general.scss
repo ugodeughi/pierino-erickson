@@ -1,0 +1,172 @@
+@use './partials/variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $text-font;
+  background-color: lighten($primary-color, 70%);
+  height: 100vh;
+  background-image: url('/img/ilmondodipierino.jpg');
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: $primary-color;
+  font-size: 18px;
+
+  scrollbar-width: thin;          /* "auto" or "thin" */
+  scrollbar-color: $primary-color white;   /* scroll thumb and track */ 
+  
+}
+
+img{
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: $primary-color;
+  font-family: $title-font;
+  font-weight: 800;
+}
+p{
+  color: $text-color;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+strong{
+  color: $primary-color;
+}
+
+ul li{
+  color: $text-color;
+  font-size: 16px;
+  list-style-type: circle;
+  margin-left: 15px;
+  line-height: 25px;
+}
+
+h1{
+  border-bottom: 1px solid $primary-color;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  span{
+    text-transform: lowercase;
+    font-size: 1.2rem;
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary-color;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid white;  /* creates padding around scroll thumb */
+}
+
+.wrapper{
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  box-shadow: inset 0 0 10px #000;
+  border-radius: 20px;
+  background-color: rgba(255,255,255, .75);
+  padding: 10px;
+  max-height: 95vh;
+  .inner{
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px;
+  }
+}
+
+
+.imagebox{
+  width: 80%;
+  max-width: 250px;
+  transform: rotate(-10deg);
+}
+.imagebox.left{
+  float: left;
+}
+.imagebox.right{
+  float: right;
+}
+
+.buttonbox{
+  background:white;
+  padding:1rem 1rem;
+  margin:1rem 2.5rem;
+  transition:all .5s ease;
+  color:#41403E;
+  font-size:2rem;
+  letter-spacing:1px;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  &:hover{
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+  } 
+  &.lined.thick{
+    border:solid 7px #41403E;
+  }
+ 
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    right:10px;
+    padding: 30px;
+    color: $primary-color !important;
+    fill: $primary-color !important;
+    stroke: $primary-color !important;
+}
+
+
+.internal-link{
+  font-weight: bold;
+  color: $primary-color;
+  display: inline-block;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: all .3s;
+  cursor: pointer;
+  font-size: .9rem;
+  &:hover{
+    background-color: $primary-color;
+    color: white;
+  }
+}
