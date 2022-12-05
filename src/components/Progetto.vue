@@ -5,7 +5,7 @@
       <div>
       <p>
       <button class="imagebox buttonbox lined.thick left">
-        <img src="/img/bruco-solo-scontornato.png" alt="">
+        <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670260203/bruco-solo-scontornato_itacxj.png" alt="">
       </button>
         L'idea del progetto è nata più di 20 anni fa quando insegnavo <strong>Educazione Musicale</strong> presso le scuole medie e, facendo ascoltare Pierino e il Lupo ai ragazzini di prima, per insegnare gli strumenti musicali, ho pensato che sarebbe stato bello avere una <strong>storia contemporanea</strong> per fare conoscere altra musica e altri strumenti. <br>
         La mia passione per la musica del mondo mi ha portato a traferire in questa storia, in musica, la realtà <strong>multiculturale</strong> della nostra società veicolando quindi anche altri constenuti oltre a quelli musicali. 

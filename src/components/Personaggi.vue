@@ -20,8 +20,8 @@
             
       <swiper-slide> 
         <div class="video-box">
-           <video id="fisa" poster="/img/fisa.png" controls>
-            <source src="/video/Tema-Pierino.mp4" type="video/mp4">
+           <video id="fisa" poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670260037/fisa_amvfbe.png" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250934/Tema-Pierino_yeuwwz.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>Pierino</strong> - fisarmonica</div>
@@ -30,8 +30,8 @@
 
       <swiper-slide> 
         <div class="video-box">
-           <video id="tenore"  poster="/img/tenore.png" controls>
-            <source src="/video/Tema-Bruco.mp4" type="video/mp4">
+           <video id="tenore"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259897/tenore_jg4gwy.png" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250789/Tema-Bruco_r4nsis.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>Il Bruco</strong> - Sax Tenore</div>
@@ -40,8 +40,8 @@
 
       <swiper-slide> 
         <div class="video-box">
-           <video id="arpa"  poster="/img/arpa.png" controls>
-            <source src="/video/Tema-Liu.mp4" type="video/mp4">
+           <video id="arpa"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670260091/arpa_bijcd4.png" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250933/Tema-Liu_rfulhp.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>Liù</strong> - Arpa Celtica</div>
@@ -50,8 +50,8 @@
 
       <swiper-slide> 
         <div class="video-box">
-           <video id="oud"  poster="/img/oud.png" controls>
-            <source src="/video/Tema-Nonna-Lilli.mp4" type="video/mp4">
+           <video id="oud"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259923/oud_bwdtif.png" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250933/Tema-Nonna-Lilli_l2upmw.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>Nonna Lilli</strong> - Oud arabo</div>
@@ -60,8 +60,8 @@
 
       <swiper-slide> 
         <div class="video-box">
-           <video id="tromba"  poster="/img/tromba.png" controls>
-            <source src="/video/Tema-Prof.mp4" type="video/mp4">
+           <video id="tromba"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259897/tromba_edkam0.png" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250933/Tema-Prof_trrv5i.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>La Prof</strong> - Tromba con sordina</div>
@@ -70,8 +70,8 @@
 
       <swiper-slide> 
         <div class="video-box">
-           <video id="percussioni"  poster="/img/percussioni.jpg" controls>
-            <source src="/video/Tema-Bulli.mp4" type="video/mp4">
+           <video id="percussioni"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259909/percussioni_lfaonz.jpg" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250933/Tema-Bulli_pjvnqa.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>I compagni si classe</strong> - Pecussioni</div>
@@ -80,8 +80,8 @@
 
       <swiper-slide> 
         <div class="video-box">
-           <video id="flauto"  poster="/img/flauto.png" controls>
-            <source src="/video/Tema-Ragazzine.mp4" type="video/mp4">
+           <video id="flauto"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670260037/flauto_i1n49d.png" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250935/Tema-Ragazzine_uwcpoj.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>Le compagne si classe</strong> - Flauto a Becco</div>
@@ -90,8 +90,8 @@
 
       <swiper-slide> 
         <div class="video-box">
-           <video id="sezione-fiati"  poster="/img/sezione-fiati.jpg" controls>
-            <source src="/video/Tema-Genitori.mp4" type="video/mp4">
+           <video id="sezione-fiati"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259896/sezione-fiati_h5ipjk.jpg" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670250934/Tema-Genitori_l8dkob.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
           <div><strong>I genitori</strong> - Sezione Fiati</div>

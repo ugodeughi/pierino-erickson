@@ -5,7 +5,7 @@
       <div>
       <p>
       <button class="imagebox buttonbox lined.thick right">
-        <img src="/img/farfalla.jpg" alt="">
+        <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670260037/farfalla_advvhz.jpg" alt="">
       </button>
       Pierino, ragazzo intelligente ma con la testa fra le nuvole, viene preso in giro dai compagni di classe. E’ sempre chiuso nel suo mondo, si sente incompreso e poco sicuro di sé.<br>
 In particolare, Pierino è preso di mira da un trio di compagni di classe e da tre ragazzine. I primi lo sottopongono a scherzi e angherie di ogni genere, mentre le seconde fanno le smorfiosette e lo snobbano; solo una ragazzina, Liù, lo guarda ogni tanto con una certa dolcezza. <br>

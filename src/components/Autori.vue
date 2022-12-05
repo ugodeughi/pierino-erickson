@@ -5,7 +5,7 @@
       <div>
         <p>
         <button class="imagebox buttonbox lined.thick left">
-          <img src="/img/stefano.jpg" alt="">
+          <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259870/stefano_zm1r6o.jpg" alt="">
         </button>
         <strong>Musicista / programmatore / coach</strong>, diplomato al Conservatorio in clarinetto nel 1988. <br>
         Ha una grande esperienza di insegnamento della musica in <strong>scuole medie</strong> statali e private, scuole superiori a <span>indirizzo socio pedagogico</span>, <strong>progetti musicali nella scuola primaria</strong> e insegamento dello strumento sia a bambini che adulti.<br>
@@ -18,7 +18,7 @@
       <div>
         <p>
         <button class="imagebox buttonbox lined.thick right">
-          <img src="/img/laura.jpg" alt="">
+          <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259934/laura_lmd32c.jpg" alt="">
         </button>
         <strong>Musicista / programmatore / coach</strong>, diplomato al Conservatorio in clarinetto nel 1988. <br>
         Ha una grande esperienza di insegnamento della musica in <strong>scuole medie</strong> statali e private, scuole superiori a <span>indirizzo socio pedagogico</span>, <strong>progetti musicali nella scuola primaria</strong> e insegamento dello strumento sia a bambini che adulti.<br>
