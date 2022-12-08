@@ -97,6 +97,19 @@
           <div><strong>I genitori</strong> - Sezione Fiati</div>
         </div> 
       </swiper-slide>
+
+      <swiper-slide> 
+        <div class="video-box">
+           <video id="sezione-fiati"  poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670260994/uccellaccio_mljkss.png" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670251002/Tema-Uccellino_bmcgl3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video> 
+          <div><strong>L' uccellino</strong> - Ciaramella</div>
+        </div> 
+      </swiper-slide>
+
+
+
     </swiper>
     </div>
     
@@ -109,7 +122,6 @@
 
 <script>
 
-import {getPathVideo} from '../data/functions'
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
 
@@ -123,6 +135,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
+import {store} from '../data/store'
 
 export default {
   name: 'Personaggi',
@@ -132,7 +145,6 @@ export default {
     },
   data(){
     return{
-      getPathVideo,
       videoName : 'Tema-Pierino',
       slides:[
         'fisa', 'tenore', 'arpa', 'oud', 'tromba', 'percussioni', 'flauto'
@@ -152,6 +164,9 @@ export default {
       modules: [Pagination, Navigation],
     };
   },
+  mounted(){
+    if(!store.logged) this.$router.push({name: 'login'})
+  }
 }
 </script>
 

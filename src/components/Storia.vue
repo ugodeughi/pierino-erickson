@@ -23,8 +23,12 @@ Alla fine della storia Pierino verrà riconosciuto da tutti per il suo vero valo
 </template>
 
 <script>
+import {store} from '../data/store'
 export default {
-  name: 'Storia'
+  name: 'Storia',
+  mounted(){
+    if(!store.logged) this.$router.push({name: 'login'})
+  }
 }
 </script>
 

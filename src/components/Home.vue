@@ -18,8 +18,12 @@
 </template>
 
 <script>
+import {store} from '../data/store'
 export default {
-  name: 'Home'
+  name: 'Home',
+  mounted(){
+    if(!store.logged) this.$router.push({name: 'login'})
+  }
 }
 </script>
 

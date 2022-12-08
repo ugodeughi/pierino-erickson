@@ -1,43 +1,43 @@
 <template>
 
-<div class="container-nav">
+<div v-if="store.logged" class="container-nav">
 
     <router-link :class="{'active' : pagesPrpgetto.includes($route.name)}" :to="{name: 'progetto'}"><button class="btn">il progetto</button></router-link>
     <router-link :to="{name: 'libro'}"><button class="btn">il libro</button></router-link>
-    <router-link :to="{name: 'app'}"><button class="btn">l'app</button></router-link>
+    <router-link :class="{'active' : pagesApp.includes($route.name)}" :to="{name: 'app'}"><button class="btn">l'app</button></router-link>
     
 </div>
 
-<div v-if="pagesPrpgetto.includes($route.name)" class="submenu">
-    <router-link :to="{name: 'progetto'}">il progetto</router-link>
+<div v-else class="space"></div>
+
+<div v-if="pagesPrpgetto.includes($route.name) && store.logged" class="submenu">
     <router-link :to="{name: 'home'}">presentazione</router-link>
+    <router-link :to="{name: 'progetto'}">il progetto</router-link>
     <router-link :to="{name: 'storia'}">la storia</router-link>
     <router-link :to="{name: 'personaggi'}">i personaggi / strumenti</router-link>
     <router-link :to="{name: 'autori'}">gli autori</router-link>
+    <router-link :to="{name: 'target'}">a chi è rivolto</router-link>
 </div>
 
-<div v-if="$route.name === 'app'" class="submenu">
-  <a href="">link</a>
-  <a href="">link</a>
-  <a href="">link</a>
-  <a href="">link</a>
-  <a href="">link</a>
-  <a href="">link</a>
-  <a href="">link</a>
-  <a href="">link</a>
-</div>
+<div v-if="pagesApp.includes($route.name) && store.logged" class="submenu">
+  <router-link :to="{name: 'canzoni'}">le canzoni</router-link>
+  <router-link :to="{name: 'concerto'}">il concerto</router-link>
+</div> 
 
   
 </template>
 
 <script>
 
+import {store} from '../../data/store'
   
 export default {
   name: 'Navbar',
   data(){
     return{
-      pagesPrpgetto:['progetto','home','storia','personaggi','autori']
+      pagesPrpgetto:['progetto','home','storia','personaggi','autori'],
+      pagesApp:['app','canzoni', 'concerto'],
+      store
     }
   }
 }
@@ -112,6 +112,10 @@ export default {
   &:hover{
     box-shadow: -15px 0 15px lighten(brown, 30%);
   }
+}
+
+.space{
+  height: 100px;
 }
 
 

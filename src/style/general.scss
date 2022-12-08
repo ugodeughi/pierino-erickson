@@ -66,6 +66,12 @@ h1{
   }
 }
 
+h2.subtitle{
+  border-bottom: 1px solid $primary-color;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
 
 ::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */

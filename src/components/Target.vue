@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="inner">
-      <h1>Il progetto</h1>
+      <h1>A chi è rivolto</h1>
       <div>
       <p>
-      <button class="imagebox buttonbox lined.thick left">
-        <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670260203/bruco-solo-scontornato_itacxj.png" alt="">
+      <button class="imagebox buttonbox lined.thick right">
+        <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670359409/catena_umana_o5trxx.jpg" alt="">
       </button>
         L'idea del progetto è nata più di 20 anni fa quando insegnavo <strong>Educazione Musicale</strong> presso le scuole medie e, facendo ascoltare Pierino e il Lupo ai ragazzini di prima, per insegnare gli strumenti musicali, ho pensato che sarebbe stato bello avere una <strong>storia contemporanea</strong> per fare conoscere altra musica e altri strumenti. <br>
         La mia passione per la musica del mondo mi ha portato a traferire in questa storia, in musica, la realtà <strong>multiculturale</strong> della nostra società veicolando quindi anche altri constenuti oltre a quelli musicali. 
@@ -19,10 +19,8 @@
 
       </p>
       <h3>Progetti futuri</h3>
-      <p>Dopo una ormai esperiaza decennale 'sul campo' è nato l desiderio di creare un verio e proprio <strong>Musical di Pierino e il Bruco</strong> con aggiunta di canzoni, <strong>musice sceniche e coreografie</strong>, da proporre nelle scuole da farlo realizzare ai bambini fornendo alle maestre <strong>uno strumemnto completo</strong>, tramite web-app (fruibile sia da pc che da smartphone ) come supporto alla sua realizzazione e <strong>messa in scena</strong>. Musical che poi avrà anche una versione teatrale pensata per professionisti e coro di bambini. 
-      <router-link class="internal-link" :to="{name: 'libro'}">scopri di più</router-link> <br>
-      Oltre al musical, il libro cartaceo avrà nelle pagine dei codici QR per poter ascoltare tutte le parti musicali.
-      <router-link class="internal-link" :to="{name: 'libro'}">scopri di più</router-link>
+      <p>Dopo una ormai esperiaza decennale 'sul campo' è nato l desiderio di creare un verio e proprio <strong>Musical di Pierino e il Bruco</strong> con aggiunta di canzoni, <strong>musice sceniche e coreografie</strong>, da proporre nelle scuole da farlo realizzare ai bambini fornendo alle maestre <strong>uno strumemnto completo</strong>, tramite web-app (fruibile sia da pc che da smartphone ) come supporto alla sua realizzazione e <strong>messa in scena</strong>. Musical che poi avrà anche una versione teatrale pensata per professionisti e coro di bambini. <a class="internal-link" href="#">Scopri di più</a> <br>
+      Oltre al musical, il libro cartaceo avrà nelle pagine dei codici QR per poter ascoltare tutte le parti musicali. <a class="internal-link" href="#">Scopri di più</a> 
       </p>
     </div>
     </div>
@@ -35,7 +33,7 @@
 <script>
 import {store} from '../data/store'
 export default {
-  name: 'Progetto',
+  name: 'Target',
   mounted(){
     if(!store.logged) this.$router.push({name: 'login'})
   }
