@@ -2,7 +2,7 @@
 
 <div v-if="store.logged" class="container-nav">
 
-    <router-link :class="{'active' : pagesPrpgetto.includes($route.name)}" :to="{name: 'progetto'}"><button class="btn">il progetto</button></router-link>
+    <router-link :class="{'active' : pagesPrpgetto.includes($route.name)}" :to="{name: 'home'}"><button class="btn">l'idea</button></router-link>
     <router-link :to="{name: 'libro'}"><button class="btn">il libro</button></router-link>
     <router-link :class="{'active' : pagesApp.includes($route.name)}" :to="{name: 'app'}"><button class="btn">l'app</button></router-link>
     
@@ -16,12 +16,13 @@
     <router-link :to="{name: 'storia'}">la storia</router-link>
     <router-link :to="{name: 'personaggi'}">i personaggi / strumenti</router-link>
     <router-link :to="{name: 'autori'}">gli autori</router-link>
-    <router-link :to="{name: 'target'}">a chi è rivolto</router-link>
 </div>
 
 <div v-if="pagesApp.includes($route.name) && store.logged" class="submenu">
+  <router-link :to="{name: 'app'}">il target</router-link>
   <router-link :to="{name: 'canzoni'}">le canzoni</router-link>
   <router-link :to="{name: 'concerto'}">il concerto</router-link>
+  <router-link :to="{name: 'musical'}">il musical</router-link>
 </div> 
 
   
@@ -35,8 +36,8 @@ export default {
   name: 'Navbar',
   data(){
     return{
-      pagesPrpgetto:['progetto','home','storia','personaggi','autori'],
-      pagesApp:['app','canzoni', 'concerto'],
+      pagesPrpgetto:['progetto','home','storia','personaggi','autori','target'],
+      pagesApp:['app','canzoni', 'concerto', 'musical'],
       store
     }
   }

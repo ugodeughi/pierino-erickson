@@ -41,6 +41,7 @@ p{
   color: $text-color;
   line-height: 32px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 strong{
@@ -111,8 +112,12 @@ h2.subtitle{
   .inner{
     max-height: 80vh;
     overflow-y: auto;
-    padding: 20px;
+    padding: 20px 40px;
   }
+}
+
+div.space{
+  height: 20px;
 }
 
 

@@ -5,18 +5,33 @@
       <div>
       <p>
       <button class="imagebox buttonbox lined.thick left">
-        <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259897/tenore_jg4gwy.png" alt="">
+        <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259896/sezione-fiati_h5ipjk.jpg" alt="">
       </button>
-      Tramite app è possibile accedere al video del concerto con <strong>Claudio Bisio</strong> come voce recitante e orchestra <br> 
-      Il video mostrato è da considerarsi una "demo" quindi incompleto e in <strong>bassa risoluzione</strong>.
+      Tramite app è possibile accedere al video del concerto con orchestra e <strong>Claudio Bisio</strong> come voce recitante <br> 
+      Di seguito tre piccoli estratti dell'opara.
       </p>
 
-      <h2 class="subtitle">Il Concerto</h2>
+      <h2 class="subtitle"></h2>
       <div class="video-box">
-           <video   poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670500465/il-concerto_k8bvm5.jpg" controls>
-            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670509734/CONCERTO-ottimizzato-cut_y36j92.mp4" type="video/mp4">
+           <video   poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670694519/direttore_qy5hco.jpg" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670695018/intro-_jxpgsi.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> 
+          <div><strong>Ouverture - intro</strong></div>
+      </div> 
+      <div class="video-box">
+           <video   poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670694519/bisio-falzone_ohkldo.jpg" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670695416/prof-_uqtkc7.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video> 
+          <div><strong>La prof</strong></div>
+      </div> 
+      <div class="video-box">
+           <video   poster="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670694519/bisio--zampetta_mbyh4r.jpg" controls>
+            <source src="https://res.cloudinary.com/dwgi34gx1/video/upload/v1670695602/nonna_lilli-_ojdn08.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video> 
+          <div><strong>La storia di Nonna Lilli</strong></div>
       </div> 
 
 

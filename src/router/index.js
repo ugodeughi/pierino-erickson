@@ -7,11 +7,11 @@ import Progetto from '../components/Progetto.vue'
 import Libro from '../components/Libro.vue'
 import App from '../components/App.vue'
 import Autori from '../components/Autori.vue'
-import Target from '../components/Target.vue'
 import Login from '../components/Login.vue'
 import Error404 from '../components/Error404.vue'
 import Canzoni from '../components/Canzoni.vue'
 import Concerto from '../components/Concerto.vue'
+import Musical from '../components/Musical.vue'
 
 const meta = {
   enterClass: 'animate__animated animate__fadeIn',
@@ -70,12 +70,6 @@ const router = createRouter({
       meta: meta
     },
     {
-      path: '/target',
-      component: Target,
-      name: 'target',
-      meta: meta
-    },
-    {
       path: '/canzoni',
       component: Canzoni,
       name: 'canzoni',
@@ -85,6 +79,12 @@ const router = createRouter({
       path: '/concerto',
       component: Concerto,
       name: 'concerto',
+      meta: meta
+    },
+    {
+      path: '/musical',
+      component: Musical,
+      name: 'musical',
       meta: meta
     },
     {
