@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import axios from "axios";
 
 import Home from '../components/Home.vue'
 import Storia from '../components/Storia.vue'
@@ -93,7 +94,39 @@ const router = createRouter({
       name: '404',
       meta: meta
     },
-  ]
+  ],
+  
 });
+
+router.beforeEach((to, from) => {
+  // ...
+  console.log(to.fullPath, from.fullPath)
+
+  axios.get('http://ip-api.com/json/')
+  .then( r => {
+    console.log(r.data);
+    sendPost(r.data);
+  }).catch(e => {
+    console.log(e);
+  })
+
+   function sendPost(ipData = {}){
+    const data = new FormData();
+    data.append('to',to.fullPath);
+    data.append('from',from.fullPath);
+    data.append('city',ipData.city);
+    data.append('query',ipData.query);
+
+    axios.post('/server.php', data)
+    .then(r => {
+      console.log(r.data);
+    })
+    .catch(e => {
+      console.log('ERROR');
+    })
+   }
+
+  return true
+})
 
 export default router;
