@@ -165,6 +165,31 @@ div.space{
 }
 
 
+.internal-link-text{
+  font-weight: bold;
+  color: $primary-color;
+  text-decoration: underline;
+  transition: all .3s;
+  cursor: pointer;
+  &:hover{
+    background-color: $primary-color;
+    color: white;
+  }
+}
+
+.internal-link-light{
+  font-weight: bold;
+  color: $primary-color;
+  text-decoration: none;
+  transition: all .3s;
+  cursor: pointer;
+  font-size: .9rem;
+  &:hover{
+    background-color: $primary-color;
+    color: white;
+  }
+}
+
 .internal-link{
   font-weight: bold;
   color: $primary-color;

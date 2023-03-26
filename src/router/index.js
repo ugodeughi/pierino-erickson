@@ -14,6 +14,7 @@ import Error404 from '../components/Error404.vue'
 import Canzoni from '../components/Canzoni.vue'
 import Concerto from '../components/Concerto.vue'
 import Musical from '../components/Musical.vue'
+import Target from '../components/Target.vue'
 
 const meta = {
   //enterClass: 'animate__animated animate__fadeIn',
@@ -65,6 +66,12 @@ const router = createRouter({
       path: '/app',
       component: App,
       name: 'app',
+      meta: meta
+    },
+    {
+      path: '/target',
+      component: Target,
+      name: 'target',
       meta: meta
     },
     {

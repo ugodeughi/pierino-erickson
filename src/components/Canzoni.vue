@@ -7,9 +7,9 @@
       <button class="imagebox buttonbox lined.thick left">
         <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259897/tenore_jg4gwy.png" alt="">
       </button>
-      Scansionando il QR code presente nel libro cartaceo, oppure direttamente dall'app, è possibile accedere alle canzoni della storia.<br>
+      Scansionando il QR code presente nel <strong>libro cartaceo</strong> <router-link class="internal-link-light" :to="{name: 'libro'}">[vedi]</router-link>, oppure direttamente dall'<strong>app</strong> <router-link class="internal-link-light" :to="{name: 'app'}">[vedi]</router-link>, è possibile accedere alle canzoni della storia.<br>
       Queste canzoni descrivono momenti e situazioni, e le si possono ascoltare cantate con <strong>testo scorrevole</strong> o in versione <strong>karaoke</strong>.<br><br>
-      Coerentemente con la trasversalità del genere musicale dell'opera, anche la canzoni sono molto diverse fra loro sia per <strong>genere</strong> che per  tipo di <strong>arrangiamento</strong>. <br> <br> 
+      Coerentemente con la <strong>trasversalità del genere musicale dell'opera</strong> <router-link class="internal-link-light" :to="{name: 'home'}">[vedi il progetto]</router-link>, anche la canzoni sono molto diverse fra loro sia per <strong>genere</strong> che per  tipo di <strong>arrangiamento</strong>. <br> <br> 
       Le canzoni create sono 11 e focalizzano i momenti salienti e i personaggi principali della storia:
       </p>
 

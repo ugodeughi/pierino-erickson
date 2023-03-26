@@ -13,7 +13,7 @@
         <strong>La prossima edizione</strong> del libro prevede molta più interattività con una stretta aderenza ad una <strong>web-app</strong> dalla quale si può accedere a tutti i <strong>contenuti multimediali</strong>. <br> 
         Tutte le musiche saranno facilmente ascoltabili tramite un <strong>QR code</strong> presente in pagina. <br>
         Il libro cartaceo è quindi previsto come <strong>supporto all' <router-link class="internal-link" :to="{name: 'app'}">app</router-link></strong> che avrà <strong>contenuti differenti</strong> se indirizzata alla <strong>famiglia</strong> piuttoso che alle <strong>scuole</strong>. <br><br>
-        <a class="internal-link" target="_blank" href="https://drive.google.com/file/d/1wEnORiUtUhYWoC6t1TlR5JOmCs4Dmi73/view?usp=sharing">Scarica il PDF della prima edizione del libro</a>
+        <a class="internal-link" target="_blank" href="https://docs.google.com/document/d/1J1Q3RUy3epCHOLhKLooMKaJmJ5EX0vGy/edit?usp=share_link&ouid=117313276727666427537&rtpof=true&sd=true">Scarica file Word del testo del libro</a>
       </p>
       
     </div>

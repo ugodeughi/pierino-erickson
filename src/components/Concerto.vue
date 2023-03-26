@@ -7,7 +7,7 @@
       <button class="imagebox buttonbox lined.thick left">
         <img src="https://res.cloudinary.com/dwgi34gx1/image/upload/v1670259896/sezione-fiati_h5ipjk.jpg" alt="">
       </button>
-      Tramite app è possibile accedere al video del concerto con orchestra e <strong>Claudio Bisio</strong> come voce recitante <br> 
+      Tramite app <router-link class="internal-link-light" :to="{name: 'app'}">[vedi]</router-link> è possibile accedere al video del concerto con orchestra e <strong>Claudio Bisio</strong> come voce recitante <br> 
       Di seguito tre piccoli estratti dell'opara.
       </p>
 

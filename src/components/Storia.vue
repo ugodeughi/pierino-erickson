@@ -14,6 +14,7 @@ L’unico conforto viene da <strong>nonna Lilli</strong> (non la sua vera nonna,
 In una delle sue solitarie uscite in bici al parco, Pierino salva un <strong>bruco</strong> indifeso dalle grinfie di un <strong>uccellino</strong> antipatico e affamato. Nasce così un legame tra il ragazzino e il piccolo bruco. Pierino lo porta via con sé e, quando la madre gli vieta di tenerlo in casa, decide di nasconderlo in un posto sicuro nella scuola. <br>
 Ad un certo punto avviene un fatto grave ed imprevisto all'interno della scuola che Pierino risolve  grazie alla sua sensibilità e viene così riconosciuto da tutti per il suo vero valore diventando lui stesso, in qualche modo, <strong>farfalla</strong>.
       </p>
+      <p><router-link class="internal-link-light" :to="{name: 'libro'}">[scarica il testo del libro]</router-link></p>
      
     </div>
     </div>

@@ -13,6 +13,7 @@
 <div v-if="pagesPrpgetto.includes($route.name) && store.logged" class="submenu">
     <router-link :to="{name: 'home'}">presentazione</router-link>
     <router-link :to="{name: 'progetto'}">il progetto</router-link>
+    <router-link :to="{name: 'target'}">il target</router-link>
     <router-link :to="{name: 'storia'}">la storia</router-link>
     <router-link :to="{name: 'personaggi'}">i personaggi / strumenti</router-link>
     <router-link :to="{name: 'autori'}">gli autori</router-link>
