@@ -28,7 +28,6 @@ export default {
   name: 'Login',
   data(){
     return{
-      psw: '321321',
       inputPsw: '',
       error:'',
       store
@@ -36,10 +35,11 @@ export default {
   },
   methods:{
     checkPsw(){
-      if(this.psw != this.inputPsw){
+      if(!store.psws.includes(this.inputPsw)){
         this.error = "Attenzione! Password non corretta"
       }else{
         store.logged = true;
+        store.psw = this.inputPsw;
         this.$router.push({name: 'home'})
       }
       setTimeout( () => {
@@ -87,4 +87,7 @@ span{
     color: brown;
     font-size: .9rem;
   }
+.inner{
+  padding-bottom: 80px;
+}
 </style>

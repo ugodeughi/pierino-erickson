@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import axios from "axios";
+import {store} from '../data/store'
 
 import Home from '../components/Home.vue'
 import Storia from '../components/Storia.vue'
@@ -15,8 +16,10 @@ import Concerto from '../components/Concerto.vue'
 import Musical from '../components/Musical.vue'
 
 const meta = {
-  enterClass: 'animate__animated animate__fadeIn',
-  leaveClass: 'animate__animated animate__fadeOut'
+  //enterClass: 'animate__animated animate__fadeIn',
+  enterClass: 'animate__animated animate__bounceInLeft',
+  //leaveClass: 'animate__animated animate__fadeOut'
+  leaveClass: 'animate__animated animate__bounceOutRight'
 }
 
 const router = createRouter({
@@ -102,7 +105,7 @@ router.beforeEach((to, from) => {
   // ...
   console.log(to.fullPath, from.fullPath)
 
-  axios.get('http://ip-api.com/json/')
+  axios.get('https://api.ipgeolocation.io/ipgeo?apiKey=0e32030216fe4e7590143cb54c48fb06')
   .then( r => {
     console.log(r.data);
     sendPost(r.data);
@@ -115,7 +118,8 @@ router.beforeEach((to, from) => {
     data.append('to',to.fullPath);
     data.append('from',from.fullPath);
     data.append('city',ipData.city);
-    data.append('query',ipData.query);
+    data.append('ip',ipData.ip);
+    data.append('psw',store.psw);
 
     axios.post('/server.php', data)
     .then(r => {

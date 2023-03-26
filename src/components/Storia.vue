@@ -12,7 +12,7 @@ In particolare Pierino è preso di mira da un trio di <strong>bulletti</strong> 
 A scuola la<strong> professoressa</strong> sgrida spesso Pierino perché è distratto e a casa i<strong> genitori</strong> non gli prestano alcuna attenzione perché troppo impegnati a litigare tra di loro.<br>
 L’unico conforto viene da <strong>nonna Lilli</strong> (non la sua vera nonna, ma un'anziana vicina di casa di origini arabe), che si prende cura di lui e lo spinge ad avere fiducia in se stesso raccontando una storia nella storia.<br><br>
 In una delle sue solitarie uscite in bici al parco, Pierino salva un <strong>bruco</strong> indifeso dalle grinfie di un <strong>uccellino</strong> antipatico e affamato. Nasce così un legame tra il ragazzino e il piccolo bruco. Pierino lo porta via con sé e, quando la madre gli vieta di tenerlo in casa, decide di nasconderlo in un posto sicuro nella scuola. <br>
-Ad un certo punto avviene un fatto grave ed imprevisto all'interno della scuola che Pierino risolve  grazie alla sua sensibiiltà e viene così riconosciuto da tutti per il suo vero valore diventendo lui stesso, in qualche modo, <strong>farfalla</strong>.
+Ad un certo punto avviene un fatto grave ed imprevisto all'interno della scuola che Pierino risolve  grazie alla sua sensibilità e viene così riconosciuto da tutti per il suo vero valore diventando lui stesso, in qualche modo, <strong>farfalla</strong>.
       </p>
      
     </div>

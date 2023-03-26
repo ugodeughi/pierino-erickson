@@ -20,7 +20,7 @@
         <li>Copione con riferimenti scenici</li>
         <li>Istruzioni (corredate di disegni esemplificativi) per la scenografia</li>
         <li>Indicazioni per i costumi</li>
-        <li>Gestione interattiva delle musiche in resazione allo svolgersi delle azioni</li>
+        <li>Gestione interattiva delle musiche in relazione allo svolgersi delle azioni</li>
         <li>Gobbo</li>
         <li>Schede e video per le coreografie delle canzoni</li>
         <li>Testi e spartiti delle canzoni</li>
